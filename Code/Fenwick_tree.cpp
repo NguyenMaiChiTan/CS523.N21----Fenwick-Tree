@@ -108,6 +108,12 @@ void Menu(){
             cout << "\nInput left and right index: ";
             cin >> left_idx >> right_idx;
             cout << "\nSum from " << left_idx << " to " << right_idx  << ": " << rangeSum(left_idx, right_idx, BIT_1, BIT_2);
+            break;
+        case 8: // Reset fenwick tree to all 0
+            constructAllZeros(BIT_1, n);
+            constructAllZeros(BIT_2, n);
+            cout << "\nReset done!";
+            break;
         default:
             cout << "\nUnrecognizable query type! \nPlease try again.\n";
         }
