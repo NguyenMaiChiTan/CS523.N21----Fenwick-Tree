@@ -32,3 +32,6 @@
 <ul>
   <li> Fenwick Tree</li>
 </ul>
+<ul>
+  Quizz: https://quizizz.com/admin/quiz/647d64d83d8ec4001e918e03?source=quiz_share
+</ul>
